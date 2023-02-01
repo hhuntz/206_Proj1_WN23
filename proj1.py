@@ -175,37 +175,32 @@ def nat_diff(sat_data, census_data):
     nat_difference = {}
 
 def main():
-    # reading in the data
+    '''
+    Fill out main per the comments below; 
+    You don't have to print anything here, 
+    but your code should run write_csv()
+    on your computed dict of differences
+    '''
 
-    # computing demographic percentages
+    # read in the data
 
-    # print(census_pct)
-    # computing the difference between test taker and state demographics
+    # compute demographic percentages
 
-    # print(pct_dif_dict["west"]["AMERICAN INDIAN/ALASKA NATIVE"])
-    # outputing the csv
+    # compute the difference between test taker and state demographics
 
-    # creating a list from the keys of inner dict
+    # output the csv
 
-    # mutating the data
+    # create a list from the keys of inner dict
 
-    # print(mutated)
+    # mutate the data using the provided 'min_max_mutate' function
 
-    # calculating the max and mins
+    # calculate the max and mins using `min_max`
 
-    # print(min_max(mutated))
+    # print 'min_max' as well 
 
-    # extra credit
-    # providing a list of col vals to cycle through
+    # extra credit here
 
-    # computing the national percentages
-
-    # print(sat_nat_perc)
-
-    # computing the difference between them
-
-    # print(dif)
-    # print("Difference between SAT and national demographics:\n" + str(dif))
+    # if you did the EC, print the dict you get from nat_diff
 
     pass
 
